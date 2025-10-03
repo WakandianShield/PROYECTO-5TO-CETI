@@ -1,0 +1,14 @@
+C:\Users\santi\source\repos\PROYECTO 5TO - TOTЯ\PROYECTO 5TO - TOTЯ\obj\Debug\net8.0-windows\PROYECTO 5TO - TOTЯ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\santi\source\repos\PROYECTO 5TO - TOTЯ\PROYECTO 5TO - TOTЯ\obj\Debug\net8.0-windows\PROYECTO 5TO - TOTЯ.AssemblyInfoInputs.cache
+C:\Users\santi\source\repos\PROYECTO 5TO - TOTЯ\PROYECTO 5TO - TOTЯ\obj\Debug\net8.0-windows\PROYECTO 5TO - TOTЯ.AssemblyInfo.cs
+C:\Users\santi\source\repos\PROYECTO 5TO - TOTЯ\PROYECTO 5TO - TOTЯ\obj\Debug\net8.0-windows\PROYECTO 5TO - TOTЯ.csproj.CoreCompileInputs.cache
+C:\Users\santi\source\repos\PROYECTO 5TO - TOTЯ\PROYECTO 5TO - TOTЯ\bin\Debug\net8.0-windows\PROYECTO 5TO - TOTЯ.exe
+C:\Users\santi\source\repos\PROYECTO 5TO - TOTЯ\PROYECTO 5TO - TOTЯ\bin\Debug\net8.0-windows\PROYECTO 5TO - TOTЯ.deps.json
+C:\Users\santi\source\repos\PROYECTO 5TO - TOTЯ\PROYECTO 5TO - TOTЯ\bin\Debug\net8.0-windows\PROYECTO 5TO - TOTЯ.runtimeconfig.json
+C:\Users\santi\source\repos\PROYECTO 5TO - TOTЯ\PROYECTO 5TO - TOTЯ\bin\Debug\net8.0-windows\PROYECTO 5TO - TOTЯ.dll
+C:\Users\santi\source\repos\PROYECTO 5TO - TOTЯ\PROYECTO 5TO - TOTЯ\bin\Debug\net8.0-windows\PROYECTO 5TO - TOTЯ.pdb
+C:\Users\santi\source\repos\PROYECTO 5TO - TOTЯ\PROYECTO 5TO - TOTЯ\obj\Debug\net8.0-windows\PROYECTO 5TO - TOTЯ.dll
+C:\Users\santi\source\repos\PROYECTO 5TO - TOTЯ\PROYECTO 5TO - TOTЯ\obj\Debug\net8.0-windows\refint\PROYECTO 5TO - TOTЯ.dll
+C:\Users\santi\source\repos\PROYECTO 5TO - TOTЯ\PROYECTO 5TO - TOTЯ\obj\Debug\net8.0-windows\PROYECTO 5TO - TOTЯ.pdb
+C:\Users\santi\source\repos\PROYECTO 5TO - TOTЯ\PROYECTO 5TO - TOTЯ\obj\Debug\net8.0-windows\PROYECTO 5TO - TOTЯ.genruntimeconfig.cache
+C:\Users\santi\source\repos\PROYECTO 5TO - TOTЯ\PROYECTO 5TO - TOTЯ\obj\Debug\net8.0-windows\ref\PROYECTO 5TO - TOTЯ.dll

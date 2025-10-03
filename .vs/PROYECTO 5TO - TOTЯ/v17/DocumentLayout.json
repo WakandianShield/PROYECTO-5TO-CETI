@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\santi\\source\\repos\\PROYECTO 5TO - TOT\u042F\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7CB9C1-CB5F-4717-A94C-67990E96031B}|PROYECTO 5TO - TOT\u042F\\PROYECTO 5TO - TOT\u042F.csproj|c:\\users\\santi\\source\\repos\\proyecto 5to - tot\u044F\\proyecto 5to - tot\u044F\\menu_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7CB9C1-CB5F-4717-A94C-67990E96031B}|PROYECTO 5TO - TOT\u042F\\PROYECTO 5TO - TOT\u042F.csproj|solutionrelative:proyecto 5to - tot\u044F\\menu_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7CB9C1-CB5F-4717-A94C-67990E96031B}|PROYECTO 5TO - TOT\u042F\\PROYECTO 5TO - TOT\u042F.csproj|c:\\users\\santi\\source\\repos\\proyecto 5to - tot\u044F\\proyecto 5to - tot\u044F\\condicionales_y_calculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7CB9C1-CB5F-4717-A94C-67990E96031B}|PROYECTO 5TO - TOT\u042F\\PROYECTO 5TO - TOT\u042F.csproj|solutionrelative:proyecto 5to - tot\u044F\\condicionales_y_calculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7CB9C1-CB5F-4717-A94C-67990E96031B}|PROYECTO 5TO - TOT\u042F\\PROYECTO 5TO - TOT\u042F.csproj|c:\\users\\santi\\source\\repos\\proyecto 5to - tot\u044F\\proyecto 5to - tot\u044F\\personaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7CB9C1-CB5F-4717-A94C-67990E96031B}|PROYECTO 5TO - TOT\u042F\\PROYECTO 5TO - TOT\u042F.csproj|solutionrelative:proyecto 5to - tot\u044F\\personaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7CB9C1-CB5F-4717-A94C-67990E96031B}|PROYECTO 5TO - TOT\u042F\\PROYECTO 5TO - TOT\u042F.csproj|c:\\users\\santi\\source\\repos\\proyecto 5to - tot\u044F\\proyecto 5to - tot\u044F\\fuente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7CB9C1-CB5F-4717-A94C-67990E96031B}|PROYECTO 5TO - TOT\u042F\\PROYECTO 5TO - TOT\u042F.csproj|solutionrelative:proyecto 5to - tot\u044F\\fuente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7CB9C1-CB5F-4717-A94C-67990E96031B}|PROYECTO 5TO - TOT\u042F\\PROYECTO 5TO - TOT\u042F.csproj|c:\\users\\santi\\source\\repos\\proyecto 5to - tot\u044F\\proyecto 5to - tot\u044F\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7CB9C1-CB5F-4717-A94C-67990E96031B}|PROYECTO 5TO - TOT\u042F\\PROYECTO 5TO - TOT\u042F.csproj|solutionrelative:proyecto 5to - tot\u044F\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\repos\\PROYECTO 5TO - TOT\u042F\\PROYECTO 5TO - TOT\u042F\\Program.cs",
+              "RelativeDocumentMoniker": "PROYECTO 5TO - TOT\u042F\\Program.cs",
+              "ToolTip": "C:\\Users\\santi\\source\\repos\\PROYECTO 5TO - TOT\u042F\\PROYECTO 5TO - TOT\u042F\\Program.cs",
+              "RelativeToolTip": "PROYECTO 5TO - TOT\u042F\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T01:53:21.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FUENTE.cs",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\repos\\PROYECTO 5TO - TOT\u042F\\PROYECTO 5TO - TOT\u042F\\FUENTE.cs",
+              "RelativeDocumentMoniker": "PROYECTO 5TO - TOT\u042F\\FUENTE.cs",
+              "ToolTip": "C:\\Users\\santi\\source\\repos\\PROYECTO 5TO - TOT\u042F\\PROYECTO 5TO - TOT\u042F\\FUENTE.cs",
+              "RelativeToolTip": "PROYECTO 5TO - TOT\u042F\\FUENTE.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T02:49:11.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MENU_PRINCIPAL.cs",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\repos\\PROYECTO 5TO - TOT\u042F\\PROYECTO 5TO - TOT\u042F\\MENU_PRINCIPAL.cs",
+              "RelativeDocumentMoniker": "PROYECTO 5TO - TOT\u042F\\MENU_PRINCIPAL.cs",
+              "ToolTip": "C:\\Users\\santi\\source\\repos\\PROYECTO 5TO - TOT\u042F\\PROYECTO 5TO - TOT\u042F\\MENU_PRINCIPAL.cs",
+              "RelativeToolTip": "PROYECTO 5TO - TOT\u042F\\MENU_PRINCIPAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHAAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T01:45:26.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CONDICIONALES_Y_CALCULOS.cs",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\repos\\PROYECTO 5TO - TOT\u042F\\PROYECTO 5TO - TOT\u042F\\CONDICIONALES_Y_CALCULOS.cs",
+              "RelativeDocumentMoniker": "PROYECTO 5TO - TOT\u042F\\CONDICIONALES_Y_CALCULOS.cs",
+              "ToolTip": "C:\\Users\\santi\\source\\repos\\PROYECTO 5TO - TOT\u042F\\PROYECTO 5TO - TOT\u042F\\CONDICIONALES_Y_CALCULOS.cs",
+              "RelativeToolTip": "PROYECTO 5TO - TOT\u042F\\CONDICIONALES_Y_CALCULOS.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T00:51:35.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PERSONAJE.cs",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\repos\\PROYECTO 5TO - TOT\u042F\\PROYECTO 5TO - TOT\u042F\\PERSONAJE.cs",
+              "RelativeDocumentMoniker": "PROYECTO 5TO - TOT\u042F\\PERSONAJE.cs",
+              "ToolTip": "C:\\Users\\santi\\source\\repos\\PROYECTO 5TO - TOT\u042F\\PROYECTO 5TO - TOT\u042F\\PERSONAJE.cs",
+              "RelativeToolTip": "PROYECTO 5TO - TOT\u042F\\PERSONAJE.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T00:49:25.126Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
