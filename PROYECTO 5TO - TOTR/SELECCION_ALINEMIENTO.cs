@@ -84,6 +84,10 @@ namespace proyecto
                 Height = 80
             };
             btnIzquierda.FlatAppearance.BorderSize = 0;
+            btnIzquierda.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            btnIzquierda.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btnIzquierda.MouseEnter += (s, e) => { btnIzquierda.ForeColor = Color.LightGray; };
+            btnIzquierda.MouseLeave += (s, e) => { btnIzquierda.ForeColor = Color.White; };
             btnIzquierda.Click += (s, e) =>
             {
                 indiceActual = (indiceActual - 1 + alineamientos.Count) % alineamientos.Count;
@@ -102,6 +106,10 @@ namespace proyecto
                 Height = 80
             };
             btnDerecha.FlatAppearance.BorderSize = 0;
+            btnDerecha.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            btnDerecha.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btnDerecha.MouseEnter += (s, e) => { btnDerecha.ForeColor = Color.LightGray; };
+            btnDerecha.MouseLeave += (s, e) => { btnDerecha.ForeColor = Color.White; };
             btnDerecha.Click += (s, e) =>
             {
                 indiceActual = (indiceActual + 1) % alineamientos.Count;
@@ -133,6 +141,10 @@ namespace proyecto
                 Height = 40
             };
             btnVolver.FlatAppearance.BorderSize = 0;
+            btnVolver.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            btnVolver.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btnVolver.MouseEnter += (s, e) => { btnVolver.ForeColor = Color.Red; };
+            btnVolver.MouseLeave += (s, e) => { btnVolver.ForeColor = Color.White; };
             btnVolver.Click += (s, e) => { DialogResult = DialogResult.Cancel; Close(); };
             Controls.Add(btnVolver);
 
@@ -194,9 +206,6 @@ namespace proyecto
 
 
         }
-
-
-
 
         private void MostrarAlineamientoActual()
         {

@@ -8,7 +8,7 @@ namespace proyecto
         private static string cadenaConexion = $"Data Source={rutaBD};Version=3;";
 
 
-        // --------------------------------------------------------------------- ESTO ES SOLO PA CREAR TABLAS Y ESO SI NO EXISTE PERO LO PUSE PARA PROBAR
+        // --------------------------------------------------------------------- ESTO ES PARA EVITAR ERRORES Y ASI
         static BASE_DE_DATOS()
         {
             try
@@ -153,23 +153,9 @@ namespace proyecto
 
 
 
+        // --------------------------------------------------------------------- OBTENER DETALLES DE UN PERSONAJE
+        // --------------------------------------------------------------------- HABILIDADES, ARMAS Y HECHIZOS
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        // Dentro de la clase BASE_DE_DATOS
         public static List<Habilidad> ObtenerHabilidades(int personajeID)
         {
             var lista = new List<Habilidad>();
@@ -233,10 +219,6 @@ namespace proyecto
 
             return lista;
         }
-
-
-
-
 
     }
 }

@@ -116,6 +116,10 @@ namespace proyecto
                 Height = 40
             };
             btnVolver.FlatAppearance.BorderSize = 0;
+            btnVolver.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            btnVolver.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btnVolver.MouseEnter += (s, e) => { btnVolver.ForeColor = Color.Red; };
+            btnVolver.MouseLeave += (s, e) => { btnVolver.ForeColor = Color.White; };
             btnVolver.Click += (s, e) => { DialogResult = DialogResult.Cancel; Close(); };
             Controls.Add(btnVolver);
 
@@ -152,6 +156,10 @@ namespace proyecto
                 Height = 80
             };
             btn.FlatAppearance.BorderSize = 0;
+            btn.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            btn.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btn.MouseEnter += (s, e) => { btn.ForeColor = Color.LightGray; };
+            btn.MouseLeave += (s, e) => { btn.ForeColor = Color.White; };
             btn.Click += click;
             return btn;
         }
@@ -194,10 +202,6 @@ namespace proyecto
             btnVolver.Left = 10;
             btnVolver.Top = 10;
         }
-
-
-
-
 
         private void MostrarTrasfondoActual()
         {

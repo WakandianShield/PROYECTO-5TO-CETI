@@ -8,7 +8,7 @@
             { "HUMANO", new List<string>() },
             { "ORCO", new List<string>() },
             { "ELFO", new List<string>{ "ALTO ELFO", "ELFO SILVANO", "ELFO OSCURO" } },
-            { "ENANO", new List<string>{ "ENANO DE LA MONTAÑA", "ENANO DE LAS COLINAS" } }
+            { "ENANO", new List<string>{ "ENANO DE MONTAÑA", "ENANO DE COLINA" } }
         };
 
         private readonly Dictionary<string, List<string>> CLASES_POR_RAZA = new()
@@ -119,7 +119,7 @@
             };
 
             // BONIFICADOR POR SUBRAZA
-            if (p.SUBRAZA == "ENANO DE COLINAS") p.HP += p.LVL;
+            if (p.SUBRAZA == "ENANO DE COLINA") p.HP += p.LVL;
 
             // CA
             p.CA = p.CLASE switch

@@ -4,10 +4,10 @@
     <Compile Update="MENU_PRINCIPAL.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="PANTALLA_JUEGO.cs">
+    <Compile Update="PANTALLA_CARGAR.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Resources\PANTALLA_CARGAR.cs">
+    <Compile Update="PANTALLA_JUEGO.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="RESUMEN_PERSONAJE.cs">

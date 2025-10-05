@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\santi\\source\\repos\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR.csproj": {}
+    "C:\\Users\\santi\\Downloads\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR.csproj": {}
   },
   "projects": {
-    "C:\\Users\\santi\\source\\repos\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR.csproj": {
+    "C:\\Users\\santi\\Downloads\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\santi\\source\\repos\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR.csproj",
+        "projectUniqueName": "C:\\Users\\santi\\Downloads\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR.csproj",
         "projectName": "PROYECTO 5TO - TOTR",
-        "projectPath": "C:\\Users\\santi\\source\\repos\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR.csproj",
+        "projectPath": "C:\\Users\\santi\\Downloads\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR.csproj",
         "packagesPath": "C:\\Users\\santi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\santi\\source\\repos\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR\\obj\\",
+        "outputPath": "C:\\Users\\santi\\Downloads\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

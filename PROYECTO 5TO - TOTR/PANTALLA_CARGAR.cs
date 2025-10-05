@@ -1,11 +1,6 @@
-﻿using System;
+﻿using PROYECTO_5TO___TOTЯ;
 using System.ComponentModel;
 using System.Data.SQLite;
-using System.Drawing;
-using System.IO;
-using System.Linq;
-using System.Windows.Forms;
-using PROYECTO_5TO___TOTЯ;
 
 namespace proyecto
 {
@@ -16,6 +11,8 @@ namespace proyecto
         private Panel panelInfo;
         private Label lblInfo;
         private Image fondo;
+        private Label lblTitulo = null!;
+
 
 
         public PANTALLA_CARGAR()
@@ -43,6 +40,32 @@ namespace proyecto
 
         private void CrearControles()
         {
+            // ---------------------------------------------------------------------------- TITULO 
+            lblTitulo = new Label()
+            {
+                Text = "CARGAR PARTIDA",
+                Font = FUENTE.ObtenerFont(40),
+                ForeColor = Color.White,
+                BackColor = Color.Transparent,
+                TextAlign = ContentAlignment.MiddleCenter,
+                AutoSize = false
+            };
+            Controls.Add(lblTitulo);
+
+            int tituloWidth = 900;
+            int tituloHeight = 60;
+            lblTitulo.Size = new Size(tituloWidth, tituloHeight);
+
+            lblTitulo.Left = (this.ClientSize.Width - lblTitulo.Width) / 2;
+            lblTitulo.Top = 30;
+            lblTitulo.BringToFront();
+
+            this.Resize += (s, e) =>
+            {
+                lblTitulo.Left = (this.ClientSize.Width - lblTitulo.Width) / 2;
+            };
+
+            // ---------------------------------------------------------------------------- BOTON CERRAR
             btnCancelar = new Button()
             {
                 Text = "X",
@@ -59,93 +82,83 @@ namespace proyecto
             btnCancelar.Left = 10;
             btnCancelar.Top = 10;
 
-            Label lblTitulo = new Label()
-            {
-                Text = "CARGAR PARTIDA",
-                Font = FUENTE.ObtenerFont(40),
-                ForeColor = Color.White,
-                BackColor = Color.Transparent,
-                TextAlign = ContentAlignment.MiddleCenter,
-                Dock = DockStyle.Top,
-                Height = 80
-            };
-            Controls.Add(lblTitulo);
-
+            // ---------------------------------------------------------------------------- LAYOUT PRINCIPAL 
             TableLayoutPanel mainLayout = new TableLayoutPanel
             {
                 Dock = DockStyle.Fill,
                 ColumnCount = 2,
-                RowCount = 2,
+                RowCount = 1,
                 BackColor = Color.Transparent,
-                Padding = new Padding(30, 30 + lblTitulo.Height + 30, 30, 30)
+                Padding = new Padding(30)
             };
-            mainLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 35F)); // lista
-            mainLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 65F)); // info
-            mainLayout.RowStyles.Add(new RowStyle(SizeType.Percent, 85F));
-            mainLayout.RowStyles.Add(new RowStyle(SizeType.Percent, 15F)); // botones
+            mainLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
+            mainLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 75F));
             Controls.Add(mainLayout);
+
+            // ---------------------------------------------------------------------------- PANEL LISTA DE PARTIDAS GUARDADAS Y BOTON 
+            TableLayoutPanel leftLayout = new TableLayoutPanel
+            {
+                Dock = DockStyle.Fill,
+                RowCount = 3
+            };
+            leftLayout.RowStyles.Add(new RowStyle(SizeType.Percent, 15F));
+            leftLayout.RowStyles.Add(new RowStyle(SizeType.Percent, 70F));
+            leftLayout.RowStyles.Add(new RowStyle(SizeType.Percent, 15F));
+            mainLayout.Controls.Add(leftLayout, 0, 0);
 
             lstPersonajes = new ListBox
             {
                 Font = FUENTE.ObtenerFont(25),
-                Dock = DockStyle.Fill
+                Dock = DockStyle.Fill,
+                IntegralHeight = false,
+                Padding = new Padding(0, 20, 0, 0)
             };
             lstPersonajes.SelectedIndexChanged += LstPersonajes_SelectedIndexChanged;
-            mainLayout.Controls.Add(lstPersonajes, 0, 0);
+            leftLayout.Controls.Add(lstPersonajes, 0, 1);
 
-            panelInfo = new Panel
+            btnCargar = new Button
+            {
+                Text = "CARGAR",
+                Font = FUENTE.ObtenerFont(20),
+                Dock = DockStyle.Fill
+            };
+            btnCargar.Click += BtnCargar_Click;
+            Panel buttonPanel = new Panel { Dock = DockStyle.Fill, Padding = new Padding(0, 10, 0, 0) };
+            buttonPanel.Controls.Add(btnCargar);
+            leftLayout.Controls.Add(buttonPanel, 0, 2);
+
+            // ---------------------------------------------------------------------------- PANEL CON STATS DE LA PARTIDA SELECCIONADA 
+            Panel rightPanel = new Panel
             {
                 Dock = DockStyle.Fill,
-                AutoScroll = true,
-                BackColor = Color.FromArgb(50, Color.Black)
+                BackColor = Color.Transparent,
+                AutoScroll = true
             };
-            mainLayout.Controls.Add(panelInfo, 1, 0);
+            mainLayout.Controls.Add(rightPanel, 1, 0);
+
+            TableLayoutPanel rightLayout = new TableLayoutPanel
+            {
+                Dock = DockStyle.Fill,
+                RowCount = 3
+            };
+            rightLayout.RowStyles.Add(new RowStyle(SizeType.Percent, 15F));
+            rightLayout.RowStyles.Add(new RowStyle(SizeType.Percent, 70F));
+            rightLayout.RowStyles.Add(new RowStyle(SizeType.Percent, 15F));
+            rightPanel.Controls.Add(rightLayout);
 
             lblInfo = new Label
             {
                 Font = FUENTE.ObtenerFont(22),
                 ForeColor = Color.White,
                 BackColor = Color.Transparent,
+                Dock = DockStyle.Fill,
+                TextAlign = ContentAlignment.TopLeft,
+                Padding = new Padding(10),
                 AutoSize = true
             };
-            panelInfo.Controls.Add(lblInfo);
-
-            FlowLayoutPanel bottomLayout = new FlowLayoutPanel
-            {
-                Dock = DockStyle.Fill,
-                FlowDirection = FlowDirection.LeftToRight,
-                WrapContents = false,
-                BackColor = Color.Transparent
-            };
-
-            btnCargar = new Button()
-            {
-                Text = "CARGAR",
-                Font = FUENTE.ObtenerFont(20),
-                Size = new Size(200, 50),
-                Margin = new Padding(0, 0, 20, 0)
-            };
-            btnCargar.Click += BtnCargar_Click;
-            bottomLayout.Controls.Add(btnCargar);
-
-            btnCancelar = new Button()
-            {
-                Text = "CANCELAR",
-                Font = FUENTE.ObtenerFont(20),
-                Size = new Size(200, 50)
-            };
-            btnCancelar.Click += (s, e) =>
-            {
-                var menu = new MENU_PRINCIPAL();
-                menu.Show();
-                this.Hide();
-            };
-
-            bottomLayout.Controls.Add(btnCancelar);
-
-            mainLayout.Controls.Add(bottomLayout, 0, 1);
-            mainLayout.SetColumnSpan(bottomLayout, 2);
+            rightLayout.Controls.Add(lblInfo, 0, 1);
         }
+
 
         private void PANTALLA_CARGAR_Paint(object sender, PaintEventArgs e)
         {
@@ -247,10 +260,10 @@ namespace proyecto
                                                $"INI: {pj.INI}\n" +
                                                $"LVL: {pj.LVL}\n\n";
 
-                                               /*"HABILIDADES:\n" + string.Join("\n", pj.HABILIDADES.Select(h =>
-                                                   $"{h.NOMBRE} ({h.STAT_ASOCIADO}) - MOD:{h.MODIFICADOR_STAT}, COMP:{h.BONIFICADOR_COMPETENCIA}, TOTAL:{h.TOTAL}")) +
-                                               "\n\nARMAS:\n" + string.Join("\n", pj.ARMAS) +
-                                               "\n\nHECHIZOS:\n" + string.Join("\n", pj.HECHIZOS);*/
+                                /*"HABILIDADES:\n" + string.Join("\n", pj.HABILIDADES.Select(h =>
+                                    $"{h.NOMBRE} ({h.STAT_ASOCIADO}) - MOD:{h.MODIFICADOR_STAT}, COMP:{h.BONIFICADOR_COMPETENCIA}, TOTAL:{h.TOTAL}")) +
+                                "\n\nARMAS:\n" + string.Join("\n", pj.ARMAS) +
+                                "\n\nHECHIZOS:\n" + string.Join("\n", pj.HECHIZOS);*/
                             }
                         }
                     }

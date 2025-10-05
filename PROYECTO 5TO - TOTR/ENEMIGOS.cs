@@ -1,23 +1,14 @@
-﻿using System;
-using System.Drawing;
-using proyecto;
-using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.IO;
-using System.Windows.Forms;
-
-namespace proyecto
+﻿namespace proyecto
 {
     public class ENEMIGOS
     {
         public Point Posicion { get; set; }
-        public Point RangoOrigen { get; set; } 
+        public Point RangoOrigen { get; set; }
         public int RangoPatrulla { get; set; } = 10;
         public int Velocidad { get; set; } = 1;
         public Color Color { get; set; } = Color.Red;
 
-        private Point objetivoActual; 
+        private Point objetivoActual;
 
         public ENEMIGOS(Point posicion)
         {

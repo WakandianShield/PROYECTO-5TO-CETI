@@ -103,8 +103,13 @@ namespace proyecto
                 Height = 50
             };
             btnVolver.FlatAppearance.BorderSize = 0;
+            btnVolver.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            btnVolver.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btnVolver.MouseEnter += (s, e) => { btnVolver.ForeColor = Color.Red; };
+            btnVolver.MouseLeave += (s, e) => { btnVolver.ForeColor = Color.White; };
             btnVolver.Click += (s, e) => { DialogResult = DialogResult.Cancel; Close(); };
             Controls.Add(btnVolver);
+
 
             RedondearBoton(btnConfirmar, 30);
             RedondearBoton(btnVolver, 10);
@@ -139,6 +144,10 @@ namespace proyecto
                 Height = 80
             };
             btn.FlatAppearance.BorderSize = 0;
+            btn.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            btn.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btn.MouseEnter += (s, e) => { btn.ForeColor = Color.DarkGray; };
+            btn.MouseLeave += (s, e) => { btn.ForeColor = Color.White; };
             btn.Click += click;
             return btn;
         }
@@ -182,11 +191,6 @@ namespace proyecto
             btnVolver.Top = 10;
         }
 
-
-
-
-
-
         private void MostrarRazaActual()
         {
             RazaSeleccionada = razas[indiceActual];
@@ -203,8 +207,6 @@ namespace proyecto
                 MessageBox.Show("Debes seleccionar una raza.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-
-            // Solo asigna la raza y cierra el form con OK
             this.DialogResult = DialogResult.OK;
             this.Close();
         }

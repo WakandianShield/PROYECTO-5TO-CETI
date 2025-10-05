@@ -46,6 +46,11 @@ namespace proyecto
                 ForeColor = Color.White
             };
             btnCancelar.FlatAppearance.BorderSize = 0;
+            btnCancelar.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            btnCancelar.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btnCancelar.MouseEnter += (s, e) => { btnCancelar.ForeColor = Color.Red; };
+            btnCancelar.MouseLeave += (s, e) => { btnCancelar.ForeColor = Color.White; };
+
             btnCancelar.Click += (s, e) => { DialogResult = DialogResult.Cancel; Close(); };
             Controls.Add(btnCancelar);
             btnCancelar.BringToFront();
@@ -179,7 +184,7 @@ namespace proyecto
             {
                 Text = "GUARDAR",
                 Font = FUENTE.ObtenerFont(18),
-                Size = new Size(200, 50),
+                Size = new Size(250, 50),
                 Margin = new Padding(0, 0, 0, 0)
             };
             btnGuardar.Click += BtnGuardar_Click;

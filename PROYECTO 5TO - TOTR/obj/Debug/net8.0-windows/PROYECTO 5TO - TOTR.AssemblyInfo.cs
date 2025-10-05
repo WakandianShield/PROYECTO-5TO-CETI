@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PROYECTO 5TO - TOTR")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a3b463f8b047ab8684d4d3fb4aa32bd3d21969e6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54a523a7478dd28f4d3a8e043e2078e01773e502")]
 [assembly: System.Reflection.AssemblyProductAttribute("PROYECTO 5TO - TOTR")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PROYECTO 5TO - TOTR")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

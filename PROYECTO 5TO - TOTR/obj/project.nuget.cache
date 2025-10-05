@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZWvnkF2M5Yg=",
+  "dgSpecHash": "asB1kIh9okg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\santi\\source\\repos\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR.csproj",
+  "projectFilePath": "C:\\Users\\santi\\Downloads\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\santi\\.nuget\\packages\\bouncycastle.cryptography\\2.5.1\\bouncycastle.cryptography.2.5.1.nupkg.sha512",
     "C:\\Users\\santi\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",

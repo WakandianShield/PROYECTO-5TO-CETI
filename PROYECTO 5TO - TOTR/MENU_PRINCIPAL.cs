@@ -60,7 +60,7 @@ namespace proyecto
             {
                 try
                 {
-                    this.Hide(); // Oculta el menú principal
+                    this.Hide();
 
                     Personaje pj = null;
                     var cond = new CONDICIONALES_Y_CALCULOS();
@@ -88,9 +88,9 @@ namespace proyecto
 
                                     pasoActual = (pj.RAZA == "ELFO" || pj.RAZA == "ENANO") ? "SUBRAZA" : "CLASE";
                                 }
-                                else // Canceló en RAZA
+                                else
                                 {
-                                    this.Show(); // vuelve al menú principal
+                                    this.Show();
                                     return;
                                 }
                             }
@@ -105,7 +105,7 @@ namespace proyecto
                                 pj.SUBRAZA = formSubraza.SubrazaSeleccionada;
                                 pasoActual = "CLASE";
                             }
-                            else if (res == DialogResult.Cancel) // Volver
+                            else if (res == DialogResult.Cancel)
                             {
                                 pasoActual = "RAZA";
                             }
@@ -120,7 +120,7 @@ namespace proyecto
                                 pj.CLASE = formClase.ClaseSeleccionada;
                                 pasoActual = "TRASFONDO";
                             }
-                            else if (res == DialogResult.Cancel) // Volver
+                            else if (res == DialogResult.Cancel)
                             {
                                 pasoActual = (pj.RAZA == "ELFO" || pj.RAZA == "ENANO") ? "SUBRAZA" : "RAZA";
                             }
@@ -135,7 +135,7 @@ namespace proyecto
                                 pj.TRASFONDO = formTrasfondo.TrasfondoSeleccionado;
                                 pasoActual = "ALINEAMIENTO";
                             }
-                            else if (res == DialogResult.Cancel) // Volver
+                            else if (res == DialogResult.Cancel)
                             {
                                 pasoActual = "CLASE";
                             }
@@ -150,7 +150,7 @@ namespace proyecto
                                 pj.ALINEAMIENTO = formAlineamiento.AlineamientoSeleccionado;
                                 pasoActual = "RESUMEN";
                             }
-                            else if (res == DialogResult.Cancel) // Volver
+                            else if (res == DialogResult.Cancel)
                             {
                                 pasoActual = "TRASFONDO";
                             }
@@ -166,13 +166,12 @@ namespace proyecto
 
                             if (res == DialogResult.OK)
                             {
-                                // Abre la pantalla de juego y cierra todo lo anterior
                                 var mapa = new PANTALLA_JUEGO(pj);
                                 mapa.FormClosed += (s3, args3) => Application.Exit();
                                 mapa.Show();
                                 return;
                             }
-                            else if (res == DialogResult.Cancel) // Volver
+                            else if (res == DialogResult.Cancel)
                             {
                                 pasoActual = "ALINEAMIENTO";
                             }
@@ -183,7 +182,7 @@ namespace proyecto
                 {
                     MessageBox.Show("Error al iniciar nueva partida: " + ex.Message,
                         "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    this.Show(); // vuelve al menú principal en caso de error
+                    this.Show();
                 }
             };
 

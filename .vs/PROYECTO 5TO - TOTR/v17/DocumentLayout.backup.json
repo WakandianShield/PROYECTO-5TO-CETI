@@ -1,22 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\santi\\source\\repos\\PROYECTO 5TO - TOTR\\",
+  "WorkspaceRootPath": "C:\\Users\\santi\\Downloads\\PROYECTO 5TO - TOTR\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6754B364-6FA0-4B9D-A1FC-CB810ACD5BAA}|PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR.csproj|c:\\users\\santi\\source\\repos\\proyecto 5to - totr\\proyecto 5to - totr\\resources\\pantalla_cargar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6754B364-6FA0-4B9D-A1FC-CB810ACD5BAA}|PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR.csproj|solutionrelative:proyecto 5to - totr\\resources\\pantalla_cargar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6754B364-6FA0-4B9D-A1FC-CB810ACD5BAA}|PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR.csproj|c:\\users\\santi\\source\\repos\\proyecto 5to - totr\\proyecto 5to - totr\\pantalla_juego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6754B364-6FA0-4B9D-A1FC-CB810ACD5BAA}|PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR.csproj|c:\\users\\santi\\downloads\\proyecto 5to - totr\\proyecto 5to - totr\\pantalla_juego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6754B364-6FA0-4B9D-A1FC-CB810ACD5BAA}|PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR.csproj|solutionrelative:proyecto 5to - totr\\pantalla_juego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6754B364-6FA0-4B9D-A1FC-CB810ACD5BAA}|PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR.csproj|c:\\users\\santi\\source\\repos\\proyecto 5to - totr\\proyecto 5to - totr\\menu_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6754B364-6FA0-4B9D-A1FC-CB810ACD5BAA}|PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR.csproj|solutionrelative:proyecto 5to - totr\\menu_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6754B364-6FA0-4B9D-A1FC-CB810ACD5BAA}|PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR.csproj|c:\\users\\santi\\source\\repos\\proyecto 5to - totr\\proyecto 5to - totr\\enemigos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6754B364-6FA0-4B9D-A1FC-CB810ACD5BAA}|PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR.csproj|solutionrelative:proyecto 5to - totr\\enemigos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ENEMIGOS.cs",
-              "DocumentMoniker": "C:\\Users\\santi\\source\\repos\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR\\ENEMIGOS.cs",
-              "RelativeDocumentMoniker": "PROYECTO 5TO - TOTR\\ENEMIGOS.cs",
-              "ToolTip": "C:\\Users\\santi\\source\\repos\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR\\ENEMIGOS.cs",
-              "RelativeToolTip": "PROYECTO 5TO - TOTR\\ENEMIGOS.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAAwA4AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T03:34:37.494Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PANTALLA_CARGAR.cs",
-              "DocumentMoniker": "C:\\Users\\santi\\source\\repos\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR\\Resources\\PANTALLA_CARGAR.cs",
-              "RelativeDocumentMoniker": "PROYECTO 5TO - TOTR\\Resources\\PANTALLA_CARGAR.cs",
-              "ToolTip": "C:\\Users\\santi\\source\\repos\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR\\Resources\\PANTALLA_CARGAR.cs",
-              "RelativeToolTip": "PROYECTO 5TO - TOTR\\Resources\\PANTALLA_CARGAR.cs",
-              "ViewState": "AgIAAL0AAAAAAAAAAAAmwOEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T06:02:19.421Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "PANTALLA_JUEGO.cs",
-              "DocumentMoniker": "C:\\Users\\santi\\source\\repos\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR\\PANTALLA_JUEGO.cs",
+              "DocumentMoniker": "C:\\Users\\santi\\Downloads\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR\\PANTALLA_JUEGO.cs",
               "RelativeDocumentMoniker": "PROYECTO 5TO - TOTR\\PANTALLA_JUEGO.cs",
-              "ToolTip": "C:\\Users\\santi\\source\\repos\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR\\PANTALLA_JUEGO.cs",
+              "ToolTip": "C:\\Users\\santi\\Downloads\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR\\PANTALLA_JUEGO.cs",
               "RelativeToolTip": "PROYECTO 5TO - TOTR\\PANTALLA_JUEGO.cs",
-              "ViewState": "AgIAAKMAAAAAAAAAAADwv64AAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYEAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-04T23:09:07.363Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MENU_PRINCIPAL.cs",
-              "DocumentMoniker": "C:\\Users\\santi\\source\\repos\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR\\MENU_PRINCIPAL.cs",
-              "RelativeDocumentMoniker": "PROYECTO 5TO - TOTR\\MENU_PRINCIPAL.cs",
-              "ToolTip": "C:\\Users\\santi\\source\\repos\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR\\MENU_PRINCIPAL.cs",
-              "RelativeToolTip": "PROYECTO 5TO - TOTR\\MENU_PRINCIPAL.cs",
-              "ViewState": "AgIAAL0AAAAAAAAAAAAIwMgAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-04T22:35:29.164Z",
+              "WhenOpened": "2025-10-05T20:06:30.849Z",
               "EditorCaption": ""
             }
           ]
