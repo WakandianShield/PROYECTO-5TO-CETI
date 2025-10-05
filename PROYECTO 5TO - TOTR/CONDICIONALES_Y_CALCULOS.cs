@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace proyecto
+﻿namespace proyecto
 {
     public class CONDICIONALES_Y_CALCULOS
     {
@@ -22,6 +18,12 @@ namespace proyecto
             { "ELFO", new List<string>{ "GUERRERO", "MAGO", "CLERIGO", "PICARO" } },
             { "ENANO", new List<string>{ "GUERRERO", "MAGO", "CLERIGO", "PICARO" } }
         };
+
+        public List<string> ObtenerTrasfondos()
+        {
+            return HABILIDADES_POR_TRASFONDO.Keys.ToList();
+        }
+
 
         // -------------------------------------------------------------------- HABILIDADES 
         private readonly Dictionary<string, List<string>> HABILIDADES_POR_CLASE = new()
@@ -78,6 +80,8 @@ namespace proyecto
         public List<string> ObtenerClases(string raza) =>
             CLASES_POR_RAZA.ContainsKey(raza) ? CLASES_POR_RAZA[raza] : new List<string>();
 
+
+        // -------------------------------------------------------------------- ASIGNAR STATS INICIALES PERO ESTO SE TIENE QUE CAMBIAR PARA CUANDO PONGAMOS LOS DADOS
         public void AsignarStatsIniciales(Personaje p)
         {
             p.STR = 10; p.DEX = 10; p.CON = 10; p.INT = 10; p.WIS = 10; p.CHA = 10;

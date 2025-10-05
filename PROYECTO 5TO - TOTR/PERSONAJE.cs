@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+﻿using System.ComponentModel;
 
 namespace proyecto
 {
     public class Personaje
     {
         // -------------------------------------------------------------------- PROPIEDADES BÁSICAS 
-        public int ID { get; set; }                                             // PARA EL SQL
+        public int ID { get; set; }
         public string NOMBRE { get; set; } = "";
         public string RAZA { get; set; } = "";
         public string SUBRAZA { get; set; } = "";

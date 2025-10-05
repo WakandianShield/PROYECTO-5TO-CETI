@@ -1,7 +1,28 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\santi\\source\\repos\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOT\u042F\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\santi\\source\\repos\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\santi\\source\\repos\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR\\BASE_DE_DATOS.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BASE_DE_DATOS.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\santi\\source\\repos\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR\\SELECCION_RAZA.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SELECCION_RAZA.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\santi\\source\\repos\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR\\PERSONAJE.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PERSONAJE.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\santi\\source\\repos\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR\\CONDICIONALES_Y_CALCULOS.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CONDICIONALES_Y_CALCULOS.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\santi\\source\\repos\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR\\MENU_PRINCIPAL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MENU_PRINCIPAL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +30,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BASE_DE_DATOS.cs",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\repos\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR\\BASE_DE_DATOS.cs",
+              "RelativeDocumentMoniker": "BASE_DE_DATOS.cs",
+              "ToolTip": "C:\\Users\\santi\\source\\repos\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR\\BASE_DE_DATOS.cs",
+              "RelativeToolTip": "BASE_DE_DATOS.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T03:06:09.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SELECCION_RAZA.cs",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\repos\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR\\SELECCION_RAZA.cs",
+              "RelativeDocumentMoniker": "SELECCION_RAZA.cs",
+              "ToolTip": "C:\\Users\\santi\\source\\repos\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR\\SELECCION_RAZA.cs",
+              "RelativeToolTip": "SELECCION_RAZA.cs",
+              "ViewState": "AgIAALcAAAAAAAAAAAAjwMcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T02:45:44.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CONDICIONALES_Y_CALCULOS.cs",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\repos\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR\\CONDICIONALES_Y_CALCULOS.cs",
+              "RelativeDocumentMoniker": "CONDICIONALES_Y_CALCULOS.cs",
+              "ToolTip": "C:\\Users\\santi\\source\\repos\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR\\CONDICIONALES_Y_CALCULOS.cs",
+              "RelativeToolTip": "CONDICIONALES_Y_CALCULOS.cs",
+              "ViewState": "AgIAAL4AAAAAAAAAAAAAwNYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T02:41:31.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PERSONAJE.cs",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\repos\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR\\PERSONAJE.cs",
+              "RelativeDocumentMoniker": "PERSONAJE.cs",
+              "ToolTip": "C:\\Users\\santi\\source\\repos\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR\\PERSONAJE.cs",
+              "RelativeToolTip": "PERSONAJE.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAwGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T02:41:29.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MENU_PRINCIPAL.cs",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\repos\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR\\MENU_PRINCIPAL.cs",
+              "RelativeDocumentMoniker": "MENU_PRINCIPAL.cs",
+              "ToolTip": "C:\\Users\\santi\\source\\repos\\PROYECTO 5TO - TOTR\\PROYECTO 5TO - TOTR\\MENU_PRINCIPAL.cs",
+              "RelativeToolTip": "MENU_PRINCIPAL.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T02:38:18.791Z",
+              "EditorCaption": ""
             }
           ]
         }

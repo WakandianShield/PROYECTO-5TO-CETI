@@ -1,12 +1,30 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <OutputType>WinExe</OutputType>
-    <TargetFramework>net8.0-windows</TargetFramework>
-    <RootNamespace>PROYECTO_5TO___TOTЯ</RootNamespace>
-    <Nullable>enable</Nullable>
-    <UseWindowsForms>true</UseWindowsForms>
-    <ImplicitUsings>enable</ImplicitUsings>
-  </PropertyGroup>
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<RootNamespace>PROYECTO_5TO___TOTЯ</RootNamespace>
+		<Nullable>enable</Nullable>
+		<UseWindowsForms>true</UseWindowsForms>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<PlatformTarget>x64</PlatformTarget>
+		<PackageIcon></PackageIcon>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<!-- Para MySQL si quieres seguir usando MySQL en paralelo -->
+		<PackageReference Include="MySql.Data" Version="9.4.0" />
+
+		<!-- Paquetes necesarios para SQLite -->
+		<PackageReference Include="System.Data.SQLite.Core" Version="1.0.119" />
+		<PackageReference Include="System.Data.SQLite.x64" Version="1.0.119" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="Resources\logo.png">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
 
 </Project>
